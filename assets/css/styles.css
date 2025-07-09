@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+:root {
+  --primaryColor: #39b0aa;
+  --darkColor: #302727;
+  --primaryFont: "Poppins", serif;
+}
+
+h1,
+.nav-link,
+.btn {
+  font-family: var(--primaryFont);
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.navbar .nav-link:hover {
+  transform: scale(1);
+  color: var(--primaryColor) !important;
+}
+
+.btn {
+  background-color: var(--primaryColor);
+  color: var(--darkColor);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--darkColor);
+}
+
+.text-primary {
+  color: var(--primaryColor) !important;
+}
+
+.feature {
+  box-shadow: 0 4px 8px rgba(51, 51, 51, 0.2);
+  transition: transform 0.5s;
+}
+
+.feature:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(118, 118, 118, 0.4);
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+a[onclick] {
+  cursor: pointer;
+}
+
+.accordion-button:focus,
+.navbar-toggler:focus {
+  box-shadow: none;
+  outline: none;
+}

@@ -28,6 +28,12 @@ h1,
   border: none;
 }
 
+.btn-primary {
+  --bs-btn-active-bg: var(--primaryColor);
+  --bs-btn-active-color: var(--darkColor);
+  --bs-btn-active-border-color: var(--primaryColor);
+}
+
 .btn-primary:hover {
   background-color: var(--darkColor);
 }

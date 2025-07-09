@@ -59,3 +59,8 @@ a[onclick] {
   box-shadow: none;
   outline: none;
 }
+
+.navbar-toggler-icon {
+  filter: invert(1); 
+}
+

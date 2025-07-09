@@ -7,7 +7,7 @@ A beautifully designed and responsive travel website that highlights the charm o
 ## Features
 
 - Responsive design using **Bootstrap 5**
-- **Single-page loading** with JavaScript `fetch()` (no reloads)
+- **Single-page application** with JavaScript `fetch()`
 - Dynamic sections:
   - Landmarks
   - Cuisine and Dining
